@@ -1,0 +1,32 @@
+.service-card-container {
+  height: 70vh;
+  display: flex;
+
+}
+
+.service-card-columns{
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  
+
+}
+
+.text-column {
+  padding-top: 30px;
+
+}
+
+.text-left {
+  text-align: end;
+}
+
+
+.red {
+  background-color: #AD5D4E;
+}
+
+
+.white {
+  background-color: #fffcf7;
+}

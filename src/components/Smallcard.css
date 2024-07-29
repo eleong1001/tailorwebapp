@@ -1,0 +1,56 @@
+
+/* .smallcard-heading{
+  color: #333;
+  
+  background-color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 10px;
+
+} */
+
+.spacer{
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-image: url('../images/haikei-purple-white.svg'); 
+  background-position: top;
+  background-size: cover;
+}
+
+
+.logoCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50vh;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #2A1E5C;
+}
+
+.playingCard {
+  margin: 10px 10px;
+  width: 15rem;
+  height: 20rem;
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 4px 8px 8px hsl(0deg, 0% 0% / .38);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
+}
+
+.playingCard:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.playingCard:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.playingCard:nth-child(4) {
+  transition-delay: 600ms;
+}
