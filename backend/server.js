@@ -21,4 +21,7 @@ connectToDatabase();
 app.use(express.json())
 app.use(cors())
 app.use('/app', routeUrls)
-app.listen(4000, () => console.log("server is running"));
+
+const PORT = process.env.PORT || 5001
+
+app.listen(PORT, () => console.log("server is running"));
