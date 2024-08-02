@@ -4,7 +4,8 @@
   "description": "backend for tailor website",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "start:prod": "node server.js"
   },
   "author": "Elliot Leong",
   "license": "ISC",
