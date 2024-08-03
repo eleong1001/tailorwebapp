@@ -4,8 +4,7 @@ I hope to make this website publicaly accessible and allow users to submit reque
 Development Process:
   -I used Vite to develop the frontend aspects of the website
 
-Production:
-  -
+Production Process:
 
 
 Inspo:
