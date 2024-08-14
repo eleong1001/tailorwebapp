@@ -1,4 +1,6 @@
-# THIS WEBAPP IS STILL A CONSTRUCTION ZONE
+# 👷WebApp Work-in Progress👷
+  - Plan to complete the design and functionality by Winter 2024
+
 
 # Summary
 Hello y'all, this is a MERN stack website (MongoDB, Express, React, NodeJs) I am working on for my personal tailor and alterations business.
