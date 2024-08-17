@@ -22,7 +22,7 @@ function Form() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:4000/app/signup', formData);
+      const response = await axios.post('http://localhost:4000/api/signup', formData);
       setFormData({
         fullName: '',
         email: '',
@@ -38,6 +38,15 @@ function Form() {
   
   return (
     <div className="form-container">
+      <div className='form-toplabel'>
+        <p>
+          please fill out this quick form to reqeust an alteration
+        </p>
+        <p>
+          requests will be sent an email detailing appointment dates in 2-3 business days
+        </p>
+        
+      </div>
       <form onSubmit={handleSubmit}>
         <div className="input-container">
           <input type="text"
@@ -60,7 +69,7 @@ function Form() {
           value={formData.phoneNumber}
           />
 
-          <label for="description">Description</label>
+          <label for="description"></label>
           <textarea
           name="description"
           placeholder="Description" 

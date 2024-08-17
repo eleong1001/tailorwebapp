@@ -1,15 +1,9 @@
 .cards {
   padding: 5rem 0 0 0 ;
-  /* background-color: #2374AB; */
+  background-color: #fffcf7;
 }
 
-.spacerCard{
-  aspect-ratio: 960/120;
-  width: 100%;
-  background-image: url('../images/haikei-blue-white.svg'); 
-  background-position: top;
-  background-size: cover;
-}
+
 
 h1 {
   text-align: center;
@@ -23,10 +17,6 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
-  /* padding: 0 5vh; */
-  /* border: 5px solid #333;
-  border-radius: 10px;
-  background-color: #D2B4E4; */
 }
 
 .cards__wrapper {

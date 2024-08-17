@@ -26,7 +26,7 @@ function Card() {
           </div>
         </div>
       </div>
-      <div className="spacerCard"></div>
+      
     </>
     
   )

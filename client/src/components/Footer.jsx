@@ -10,7 +10,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              Leong's Tailor Est. 2024
+              re:tel est. 2024
             </Link>
           </div>
           <div className='social-icons'>
