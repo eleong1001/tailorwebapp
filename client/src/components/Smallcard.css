@@ -1,22 +1,10 @@
 
-/* .smallcard-heading{
+.smallcard-heading{
   color: #333;
   
-  background-color: #fff;
-  font-size: 40px;
-  font-weight: 600;
-  display: inline-block;
-  border-radius: 5px;
-  padding: 5px 10px;
-
-} */
-
-.spacer{
-  aspect-ratio: 960/200;
-  width: 100%;
-  background-image: url('../images/haikei-purple-white.svg'); 
-  background-position: top;
-  background-size: cover;
+  background-color: #FFF8EB;
+  text-align: center;
+  font-size: large;
 }
 
 
@@ -24,11 +12,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-  height: 50vh;
+  align-items: start;
+  height: 80vh;
   padding: 1rem;
   gap: 1rem;
-  background-color: #2A1E5C;
+  background-color: #FFF8EB;
 }
 
 .playingCard {

@@ -6,7 +6,11 @@ import '../App.css'
 function Smallcard() {
   return (
     <>
-      {/* <div className='smallcard-heading'>Our Alterations Include</div> */}
+      <div className='smallcard-heading'>
+        <hr></hr>
+        Our Alterations Include
+        <hr></hr>
+      </div>
       <div className='logoCards'>
         <div className="playingCard hidden">
           

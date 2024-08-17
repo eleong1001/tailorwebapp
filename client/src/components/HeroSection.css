@@ -6,9 +6,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-image: url('../images/haikei-blues.svg');
-  background-position: bottom;
-  background-size: cover;
+  background-color: #FFF8EB;
 }
 
 .hero-column {
@@ -60,10 +58,10 @@
 } */
 
 .hero-window {
-  background-image: url('../images/HeroPhoto (1).png');
-  background-position: 45% 50%;
-  background-size: 170%;
-  background-color: #70B77E;
+  background-image: url('../images/RedwoodHeroPhoto.png');
+  background-position: 49% 49%;
+  background-size: 200%;
+  background-color: #FFFCF7;
   margin: 0px 5vh;
   height: 100%;
   position: relative;
