@@ -20,7 +20,7 @@ connectToDatabase();
 
 app.use(express.json())
 app.use(cors())
-app.use('/app', routeUrls)
+app.use('/api', routeUrls)
 
 const PORT = process.env.PORT || 5001
 
