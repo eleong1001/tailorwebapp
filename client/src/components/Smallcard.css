@@ -7,13 +7,24 @@
   font-size: large;
 }
 
+.smallcard-heading hr {
+  border: none;
+  border-top: 1px solid #333; 
+}
+
+.heading-text {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
 
 .logoCards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: start;
-  height: 80vh;
+  align-items: center;
+  height: 70vh;
   padding: 1rem;
   gap: 1rem;
   background-color: #FFF8EB;
@@ -23,22 +34,32 @@
   margin: 10px 10px;
   width: 15rem;
   height: 20rem;
-  background-color: #333;
+  background-color: #FFF8EB;
   border: 1px solid #333;
   border-radius: 10px;
-  box-shadow: 4px 8px 8px hsl(0deg, 0% 0% / .38);
+  /* box-shadow: 4px 8px 8px hsl(0deg, 0% 0% / .38);
   -webkit-filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017)); */
 }
 
-.playingCard:nth-child(2) {
+.card-container:nth-child(2) {
   transition-delay: 200ms;
 }
 
-.playingCard:nth-child(3) {
+.card-container:nth-child(3) {
   transition-delay: 400ms;
 }
 
-.playingCard:nth-child(4) {
+.card-container:nth-child(4) {
   transition-delay: 600ms;
+}
+
+.card-label {
+  width: 15rem;
+  height: 2rem;
+  margin: 10px 10px;
+  background-color: #FFF8EB;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
 }

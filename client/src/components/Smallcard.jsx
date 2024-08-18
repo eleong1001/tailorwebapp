@@ -8,23 +8,44 @@ function Smallcard() {
     <>
       <div className='smallcard-heading'>
         <hr></hr>
-        Our Alterations Include
+        <div className='heading-text'>Our Alterations Include</div>
+        
         <hr></hr>
       </div>
       <div className='logoCards'>
-        <div className="playingCard hidden">
-          
-          {/* <img src='../../images/rsz_playingcard.png' alt='card' /> */}
+        <div className="card-container hidden">
+          <div className="playingCard ">
+            
+          </div>
+
+          <div className="card-label">
+          </div>
         </div>
-        <div className="playingCard hidden">
-          
+        <div className="card-container hidden">
+          <div className="playingCard ">
+            
+          </div>
+          <div className="card-label">
+            
+          </div>
         </div>
-        <div className="playingCard hidden">
-          
+        <div className="card-container hidden">
+          <div className="playingCard ">
+            
+          </div>
+          <div className="card-label">
+            
+          </div>
         </div>
-        <div className="playingCard hidden">
-    
+        <div className="card-container hidden">
+          <div className="playingCard ">
+            
+          </div>
+          <div className="card-label">
+            
+          </div>
         </div>
+        
       </div>
       <div className="spacer"></div>
     </>
