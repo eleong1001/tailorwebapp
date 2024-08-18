@@ -12,7 +12,13 @@ I hope to make this website publicaly accessible and allow users to submit reque
   - Learn about API's
   - Gain creative and aesthetic design skills
 
-# Development Process:
+# Design
+Home Page Hero Section:
+
+![HomePageImage](https://github.com/user-attachments/assets/b2002cf9-5e88-4cee-8c8f-50a4a8534f2a)
+
+
+# Development Process
   - Using Vite to develop the frontend aspects of the website
   - Currently learning how to host a website with the front end and backend on the same server
     - Hopefully so users can submit requests for alterations, which are then sent through the backend node.js to MongoDB
