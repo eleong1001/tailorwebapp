@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+
 }
 
 .navbar-container {
@@ -61,7 +62,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 3px solid #FFF8EB;
   transition: all 0.2s ease-out;
 }
 

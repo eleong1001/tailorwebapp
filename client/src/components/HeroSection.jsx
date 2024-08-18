@@ -7,8 +7,13 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <div className="hero-column left-column hidden">
-        <h1>Perfect Your Fits</h1>
-        <p>What are you waiting for?</p>
+        <div className="staircase">
+          <h1 className="step">Reinvent</h1>
+          <h1 className="step">Revamp</h1>
+          <h1 className="step">Retell</h1>
+        </div>
+        
+        <p>Eco-Driven Tailoring Services </p>
         <div className="hero-btns">
           <Button
             buttonStyle="btn--primary"
@@ -17,6 +22,7 @@ function HeroSection() {
             Set Appointment
           </Button>
         </div>
+        <sub>Based in Minneapolis & St. Louis</sub>
       </div>
       <div className="hero-column right-column">
         <div className="hero-window">
