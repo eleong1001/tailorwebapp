@@ -6,11 +6,11 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <div className="hero-column left-column hidden">
+      <div className="hero-column left-column ">
         <div className="staircase">
-          <h1 className="step">Reinvent</h1>
-          <h1 className="step">Revamp</h1>
-          <h1 className="step">Retell</h1>
+          <h1 className="step hidden">Reinvent</h1>
+          <h1 className="step hidden">Revamp</h1>
+          <h1 className="step hidden">re:tel</h1>
         </div>
         
         <p>Eco-Driven Tailoring Services </p>

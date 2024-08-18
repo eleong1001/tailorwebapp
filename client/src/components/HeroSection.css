@@ -19,26 +19,33 @@
 .staircase{
   display: flex;
   flex-direction: column;
-  padding: 50px 50px 0px;
+  padding: 10px 20px ;
 }
 
 .staircase > h1 {
   color: #333;
-  font-size: 55px;
-  text-shadow: 2px 2px 2px #D3D3D3;
+  font-family: "Archivo Black", sans-serif;
+  /* font-family: "Old Standard TT", serif;
+  font-weight: 700; */
+  font-size: 100px;
+  margin-top: -30px;
 }
 
 
 .step:nth-child(1) {
   align-self: flex-start;
+  transition-delay: 200ms;
 }
 
 .step:nth-child(2) {
   align-self: center;
+  transition-delay: 400ms;
 }
 
 .step:nth-child(3) {
+  color: #56876D;
   align-self: flex-end;
+  transition-delay: 600ms;
 }
 
 .hero-column > sub {
