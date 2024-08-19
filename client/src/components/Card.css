@@ -32,8 +32,7 @@ h1 {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
-  background-color: #E19C6C;
+  
 
 }
 
@@ -43,18 +42,20 @@ h1 {
 
 .cards__item__link {
   display: flex;
+  align-items: center;
   flex-flow: column;
   width: 100%;
-  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .17), 2px 4px 5px hsl(0deg 0% 0% / .17) ,4px 8px 10px hsl(0deg 0% 0% / .17);
-  border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
 }
 
 .cards__item__pic-wrap {
   position: relative;
-  width: 100%;
+  width: 90%;
   padding-top: 67%;
+  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .17), 2px 4px 5px hsl(0deg 0% 0% / .17) ,4px 8px 10px hsl(0deg 0% 0% / .17);
+  border-radius: 10px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -63,19 +64,6 @@ h1 {
   animation-duration: 2s;
 }
 
-.cards__item__pic-wrap::after {
-  content: attr(data-category);
-  position: absolute;
-  bottom: 0;
-  margin-left: 10px;
-  padding: 6px 8px;
-  max-width: calc((100%) - 60px);
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #AB5A23;
-  box-sizing: border-box;
-}
 
 .cards__item__img {
   position: absolute;
@@ -90,7 +78,7 @@ h1 {
   max-height: 100%;
   object-fit: cover;
   transition: all 0.2s linear;
-  background-color: #fff;
+  background-color: #56876D;
   transform: scale(2.8);
 }
 
@@ -103,13 +91,16 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px 20px 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
 }
 
 .cards__item__text {
-  color: #fff;
+  color: #333;
   font-size: 18px;
-  line-height: 24px;
 }
 
 @media only screen and (min-width: 1200px) {

@@ -19,6 +19,7 @@ function Smallcard() {
           </div>
 
           <div className="card-label">
+            Pant Hemming
           </div>
         </div>
         <div className="card-container hidden">
@@ -26,7 +27,7 @@ function Smallcard() {
             
           </div>
           <div className="card-label">
-            
+            Waist Adjustment
           </div>
         </div>
         <div className="card-container hidden">
@@ -34,7 +35,7 @@ function Smallcard() {
             
           </div>
           <div className="card-label">
-            
+            Shirt Cropping
           </div>
         </div>
         <div className="card-container hidden">
@@ -42,7 +43,7 @@ function Smallcard() {
             
           </div>
           <div className="card-label">
-            
+            Dress Shirt Tailoring
           </div>
         </div>
         
