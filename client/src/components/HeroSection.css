@@ -1,32 +1,33 @@
 
 .hero-container {
-  height: 90vh;
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  align-content: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #FFF8EB;
 }
 
-.hero-column {
+/* .hero-column {
   flex: 1;
   padding: 20px;
   align-content: start;
   text-align: center;
-}
+} */
 
 .staircase{
   display: flex;
   flex-direction: column;
-  padding: 10px 20px ;
+  padding: 10px 25px 0px;
+  position: relative;
+  top: -45px;
 }
 
 .staircase > h1 {
   color: #333;
   font-family: "Archivo Black", sans-serif;
-  /* font-family: "Old Standard TT", serif;
-  font-weight: 700; */
   font-size: 100px;
   margin-top: -30px;
 }
@@ -48,17 +49,16 @@
   transition-delay: 600ms;
 }
 
-.hero-column > sub {
+.left-column > sub {
   padding-top: 50px;
 }
 
 
-.hero-column > p {
-  margin-top: 8px;
+.left-column > p {
+  margin-top: -25px;
   text-align: center;
   color: #3A3335;
   font-size: 20px;
-  
 }
 
 .hero-btns {
@@ -68,92 +68,131 @@
 
 }
 
-.hero-btns-app {
-  background: #FFFCF7;
-  color: #333;
-}
-
-.hero-btns-app:hover {
-  background: #333;
-  color: #FFFCF7;
-  transition: 250ms;
-}
-
 
 .right-column {
+  display: flex;
   justify-content: center;
-  height: 70%;
-  width: 100%;
+  align-items: center;
 }
 
 .left-column {
-  height: 100%;
-  padding-top: 50px
+  height: 90vh;
+  justify-content: center;
+  padding: 20px;
+  align-content: center;
+  text-align: center;
 }
 
 .hero-window {
-  background-image: url('../images/RedwoodHeroPhoto.png');
-  background-position: 49% 49%;
-  background-size: 200%;
-  background-color: #FFFCF7;
-  margin: 0px 5vh;
-  height: 100%;
+  top: -30px;
   position: relative;
-  top: -5vh;
+  width: 90%;
+  height: auto;
+  overflow: hidden;
   border-radius: 10px;
   box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .22), 2px 4px 5px hsl(0deg 0% 0% / .22) ,4px 8px 10px hsl(0deg 0% 0% / .22);
-
 }
 
+.hero-window img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 10px;
+  left: 6px;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(2);
+}
 
-@media screen and (max-width: 1280px) {
-  .hero-column > h1 {
-    font-size: 60px;
-  }
+/* Media Queries */
 
-  .hero-column > p {
-    font-size: 35px;
+/* Large screens (desktops) */
+@media screen and (max-width: 1200px) {
+  .staircase > h1 {
+    font-size: 80px;
   }
 }
 
+/* Medium screens (tablets) */
+@media screen and (max-width: 992px) {
+  .hero-container{
+    grid-template-columns: 1fr;
+  }
 
+  .staircase{
+    top: 0;
+  }
+
+  .hero-btns{
+    margin: 10px 0px;
+  }
+  .left-column{
+    align-content: start;
+    height:auto;
+  }
+
+  .hero-window{
+    top: 0px;
+  }
+
+  .right-column{
+    padding-bottom: 50px;
+  }
+
+  .left-column > sub {
+    position: relative;
+    top: -6px;
+    padding-top: 0px;
+    
+    font-size: 13px;
+  }
+  
+  .left-column > p {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .staircase > h1 {
+    font-size: 100px;
+  }
+}
+
+/* Small screens (large phones) */
 @media screen and (max-width: 768px) {
+  
 
-  .hero-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .left-column > sub {
+    font-size: 10px;
   }
   
-  .hero-column > h1 {
-    font-size: 50px;
-    margin-top: -100px;
-  }
-
-  .hero-column > p {
-    font-size: 30px;
-
-  }
-
-  .btn-mobile {
-    display:block;
-    text-decoration: none;
-  }
-
-  .right-column {
-    border: 0px solid #333;
-    height: 70%;
-    border-radius: 10px;
-    width: 100%;
+  .left-column > p {
+    font-size: 16px;
   }
   
-  .hero-window {
-    margin: 0px 10vh;
-    height: 90%;
-    border-radius: 10px;
-  
+  .staircase > h1 {
+    font-size: 70px;
+  }
+}
+
+/* Extra small screens (small phones) */
+@media screen and (max-width: 576px) {
+  .left-column > sub {
+    font-size: 8px;
   }
 
- 
+  .step:nth-child(1){
+    align-self: center;
+  }
+  .step:nth-child(2){
+    align-self: center;
+  }
+  .step:nth-child(3){
+    align-self: center;
+  }
+
+  
+  .left-column > p {
+    font-size: 14px;
+  }
   
 }
