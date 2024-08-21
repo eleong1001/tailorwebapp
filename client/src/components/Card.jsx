@@ -17,9 +17,9 @@ function Card() {
               />
               <Carditem 
               src="images/jorts.png"
-              text="Explore our completed and upcoming projects."
+              text="Learn about re:tel and the creation of this website."
               label="Projects"
-              path='/services'
+              path='/about'
               className='rightcard'
               />
             </ul>

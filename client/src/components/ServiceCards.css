@@ -1,5 +1,5 @@
 .service-card-container {
-  height: 70vh;
+  height: 60vh;
   display: flex;
 
 }
@@ -13,7 +13,7 @@
 }
 
 .text-column {
-  padding-top: 30px;
+  padding-top: 10px;
 
 }
 
@@ -24,9 +24,23 @@
 
 .red {
   background-color: #AD5D4E;
+  color: #F6E8D5;
 }
 
+.red h1, .white h1{
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px;
+}
+
+ul{
+  padding-left:  60px;
+}
+
+li{
+  padding-bottom: 10px;
+}
 
 .white {
   background-color: #FFF8EB;
+  color: #333;
 }

@@ -5,7 +5,7 @@ import { Button } from "./Button";
 function CustomSection() {
   return (
     <div className='custom-container'>
-      <div className="custom-header">
+      <div className="custom-header hidden">
         Want a Custom Job?
       </div>
       <div className="custom-paragraph">

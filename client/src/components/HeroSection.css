@@ -1,21 +1,10 @@
 
 .hero-container {
   width: 100%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #FFF8EB;
 }
-
-/* .hero-column {
-  flex: 1;
-  padding: 20px;
-  align-content: start;
-  text-align: center;
-} */
 
 .staircase{
   display: flex;

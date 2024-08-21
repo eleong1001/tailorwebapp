@@ -9,13 +9,13 @@
 
 .smallcard-heading hr {
   border: none;
-  border-top: 1px solid #333; 
+  border-top: 2px solid #333; 
 }
 
 .heading-text {
-  padding: 20px;
-  font-weight: 400;
-  font-size: 25px;
+  font-family: "Archivo Black", sans-serif;
+  padding: 10px;
+  font-size: 50px;
 }
 
 
@@ -24,7 +24,6 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  /* height: 70vh; */
   padding: 1rem;
   gap: 1rem;
   background-color: #FFF8EB;
@@ -35,7 +34,7 @@
   margin: 10px 10px;
   width: 15rem;
   height: 20rem;
-  background-color: #FFF8EB;
+  background-color: #F6E8D5;
   border: 1px solid #333;
   border-radius: 10px;
   /* box-shadow: 4px 8px 8px hsl(0deg, 0% 0% / .38);
@@ -59,7 +58,7 @@
   width: 15rem;
   height: 2rem;
   margin: 10px 10px;
-  background-color: #FFF8EB;
+  background-color: #F6E8D5;
   border: 1px solid #333;
   border-radius: 10px;
   text-align: center;

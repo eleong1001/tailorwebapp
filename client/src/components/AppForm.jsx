@@ -39,40 +39,44 @@ function Form() {
   return (
     <div className="form-container">
       <div className='form-toplabel'>
+        <h1>
+          Alteration Request Form
+        </h1>
         <p>
-          please fill out this quick form to reqeust an alteration
-        </p>
-        <p>
-          requests will be sent an email detailing appointment dates in 2-3 business days
+          Requests will be sent an email detailing appointment dates in 2-3 business days
         </p>
         
       </div>
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <input type="text"
-          name="fullName"
-          placeholder="Full Name" 
-          onChange={handleChange}
-          value={formData.name}
+          <label htmlFor="fullName">Preferred Name</label>
+          <input 
+            type="text"
+            name="fullName"
+            placeholder="Enter your preferred name" 
+            onChange={handleChange}
+            value={formData.name}
           />
-
-          <input type="text" 
-          name="email"
-          placeholder="Email" 
-          onChange={handleChange}
-          value={formData.email}
+          <label htmlFor="email">Email</label>
+          <input 
+            type="text" 
+            name="email"
+            placeholder="Enter your email" 
+            onChange={handleChange}
+            value={formData.email}
           />
-          <input type="text" 
-          name="phoneNumber"
-          placeholder="Phone Number" 
-          onChange={handleChange}
-          value={formData.phoneNumber}
+          <label htmlFor="phoneNumber">Phone Number</label>
+          <input 
+            type="text" 
+            name="phoneNumber"
+            placeholder="Enter your phone number" 
+            onChange={handleChange}
+            value={formData.phoneNumber}
           />
-
-          <label for="description"></label>
+          <label htmlFor="description">Description</label>
           <textarea
           name="description"
-          placeholder="Description" 
+          placeholder="Please enter a description of the service(s) that you are requesting" 
           onChange={handleChange}
           value={formData.description}
           />
