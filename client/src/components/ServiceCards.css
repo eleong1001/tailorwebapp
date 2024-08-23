@@ -1,16 +1,38 @@
 .service-card-container {
-  height: 60vh;
-  display: flex;
+  display: grid;
+  grid-template-areas: 
+  'img text'
+  'custom';
+  grid-template-columns: 1fr 1fr;
 
 }
 
 .service-card-columns{
-  flex: 1;
-  padding: 20px;
-  display: flex;
+  padding: 20px 10px 20px 0px; 
   
-
 }
+
+/* .service-photo1{
+  position: relative;
+  width: 90%;
+  height: 500px;
+  overflow: hidden;
+ 
+} */
+
+/* .service-photo1 img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center;
+  filter:
+  drop-shadow(3px 3px 5px rgba(0,0,0,0.2)) 
+  drop-shadow(6px 6px 10px rgba(0,0,0,0.1))
+  drop-shadow(9px 9px 15px rgba(0,0,0,0.05));
+} */
+
 
 .text-column {
   padding-top: 10px;
@@ -20,7 +42,18 @@
 .text-left {
   text-align: end;
 }
-
+/* 
+.custom-service{
+  display: inline-block;
+  background-color: #F6E8D5;
+  color: #333;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 10px 6px;
+  text-align: center;
+  align-self: center;
+  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .17), 2px 4px 5px hsl(0deg 0% 0% / .17) ,4px 8px 10px hsl(0deg 0% 0% / .17);
+} */
 
 .red {
   background-color: #AD5D4E;
@@ -32,15 +65,20 @@
   font-size: 50px;
 }
 
-ul{
+.service-card-columns ul{
   padding-left:  60px;
 }
 
-li{
+.service-card-columns li{
   padding-bottom: 10px;
 }
 
 .white {
   background-color: #FFF8EB;
   color: #333;
+}
+
+.custom-columns{
+  padding: 30px;
+  text-align: center;
 }

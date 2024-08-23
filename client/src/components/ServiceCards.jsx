@@ -7,11 +7,8 @@ function ServiceCards() {
     <>
       <div className='service-card-container red'>
         <div className="service-card-columns">
-          Photo Placeholder
-        </div>
-        <div className="service-card-columns">
           <div className="text-column">
-            <h1>Alterations for Tops</h1>
+            <h1>Tops</h1>
             <ul>
               <li>
                 T-Shirt Crop - $20
@@ -28,18 +25,13 @@ function ServiceCards() {
               <li>
                 Adjust Dress Shirt Sleeves - $15
               </li>
-              <li>
-                Adjust T-Shirt Sleeve Length - $10
-              </li>
             </ul>
           </div>
         </div>
-      </div>
-      <div className="service-card-container white">
         <div className="service-card-columns">
           <div className="text-column">
             <h1>
-              Alterations for Bottoms
+              Bottoms
             </h1>
             <ul>
               <li>
@@ -60,8 +52,13 @@ function ServiceCards() {
             </ul>
           </div>
         </div>
-        <div className="service-card-columns">
-          Photo Placeholder
+      </div>
+      <div className="white">
+        <div className="custom-columns">
+          <h1>
+            Custom
+          </h1>
+          Any other
         </div>
       </div>
 

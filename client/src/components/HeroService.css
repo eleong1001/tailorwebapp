@@ -1,5 +1,5 @@
 .hero-service-container {
-  height: 70vh;
+  height: 50vh;
   background-color: #FFF8EB;
   display: block;
   align-content: center;
@@ -10,5 +10,8 @@
   text-align: center;
   position: relative;
   top: -5vh;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 100px;
+  color: #333;
   
 }

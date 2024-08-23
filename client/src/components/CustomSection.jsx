@@ -24,9 +24,12 @@ function CustomSection() {
           </Button>
         </div>
       </div>
+      <div className='custom-sub'>
+        <sub>Photo: <br/> Wide jorts with custom inseam </sub>
+      </div>
       
       <div className="custom-img">
-        
+        <img src="../images/jorts-custom.png" alt="alt" />
       </div> 
     </div>
     
