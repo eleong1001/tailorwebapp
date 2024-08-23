@@ -66,7 +66,7 @@ input[name='button']{
   width: 150px;
   height: 50px;
   border-radius: 5px;
-  background-color: #FFF8EB;
+  background-color: #F6E8D5;
   font-size: 20px;
   color: var(--primary);
   border: 1px solid var(--primary);
@@ -75,6 +75,6 @@ input[name='button']{
 
 input[name='button']:hover{
   background: #333;
-  color: #fff;
+  color: #fffCF7;
   transition: 250ms;
 }

@@ -11,13 +11,14 @@ function Card() {
             <ul className="cards__items">
               <Carditem 
               src="images/sewingmachine.png"
-              text="Discover our modern alteration services and inexpensive pricing."
+              text="Discover our modern alteration services and inexpensive pricing"
               label="Services"
               path='/services'
+              className='leftcard'
               />
               <Carditem 
-              src="images/jorts.png"
-              text="Learn about re:tel and the creation of this website."
+              src="images/canva-shirt.png"
+              text="Learn about re:tel and the creation of this website"
               label="Projects"
               path='/about'
               className='rightcard'
