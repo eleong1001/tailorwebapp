@@ -5,25 +5,30 @@ import './ServiceCards.css'
 function ServiceCards() {
   return (
     <>
-      <div className='service-card-container red'>
+      <div className='service-card-container'>
         <div className="service-card-columns">
           <div className="text-column">
             <h1>Tops</h1>
             <ul>
               <li>
-                T-Shirt Crop - $20
+                <span>- T-Shirt Crop</span>
+                <span>$15</span>
               </li>
               <li>
-                Button up Crop - $25
+                <span>- Button Up Crop</span>
+                <span>$20</span>
               </li>
               <li>
-                Dress Shirt Sliming - $25
+                <span>- Dress Shirt Slimming</span>
+                <span>$25</span>
               </li>
               <li>
-                Dress Shirt Darts - $10
+                <span>- Dress Shirt Darts</span>
+                <span>$10</span>
               </li>
               <li>
-                Adjust Dress Shirt Sleeves - $15
+                <span>- Adjust Dress Shirt Sleeves</span>
+                <span>$15</span>
               </li>
             </ul>
           </div>
@@ -34,34 +39,36 @@ function ServiceCards() {
               Bottoms
             </h1>
             <ul>
-              <li>
-                Pant Hem - $15
-              </li>
-              <li>
-                Original Hem - $20
-              </li>
-              <li>
-                Pant Waist Reduction - $30
-              </li>
-              <li>
-                Flare Pants - $40
-              </li>
-              <li>
-                "Baggify" Jeans (Added panel on inseam of Jeans) - $50
-              </li>
+            <li>
+            <span>- Pant Hem</span>
+            <span>$15</span>
+          </li>
+          <li>
+            <span>- Original Hem</span>
+            <span>$20</span>
+          </li>
+          <li>
+            <span>- Pant Waist Reduction</span>
+            <span>$30</span>
+          </li>
+          <li>
+            <span>- Flare Pants</span>
+            <span>$40</span>
+          </li>
+          <li>
+            <span>- "Baggify" Jeans <br></br> &nbsp;&nbsp;(Added inseam panel)</span>
+            <span>$50</span>
+          </li>
             </ul>
           </div>
         </div>
-      </div>
-      <div className="white">
-        <div className="custom-columns">
+        <div className="service-custom">
           <h1>
             Custom
           </h1>
-          Any other
+          If you have any unique ideas or specific requirements that need tailoring, please don’t hesitate to request our services! We're here to help bring your vision to life.
         </div>
       </div>
-
     </>
     
   )

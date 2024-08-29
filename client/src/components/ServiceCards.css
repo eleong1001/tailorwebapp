@@ -1,84 +1,75 @@
 .service-card-container {
   display: grid;
   grid-template-areas: 
-  'img text'
-  'custom';
+  'text1 text2'
+  'custom custom';
   grid-template-columns: 1fr 1fr;
 
 }
 
 .service-card-columns{
   padding: 20px 10px 20px 0px; 
-  
+  background-color: #AD5D4E;
+  color: #F6E8D5;
 }
 
-/* .service-photo1{
-  position: relative;
-  width: 90%;
-  height: 500px;
-  overflow: hidden;
- 
-} */
-
-/* .service-photo1 img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
-  object-position: center;
-  filter:
-  drop-shadow(3px 3px 5px rgba(0,0,0,0.2)) 
-  drop-shadow(6px 6px 10px rgba(0,0,0,0.1))
-  drop-shadow(9px 9px 15px rgba(0,0,0,0.05));
-} */
+.service-custom{
+  background-color: #AD5D4E;
+  color: #F6E8D5;
+  grid-area: custom;
+  text-align: center;
+  padding: 0px 20vw 70px;
+}
 
 
 .text-column {
   padding-top: 10px;
 
 }
+.text-column li {
+  display: flex;
+  justify-content: space-between;
 
-.text-left {
-  text-align: end;
-}
-/* 
-.custom-service{
-  display: inline-block;
-  background-color: #F6E8D5;
-  color: #333;
-  border-radius: 10px;
-  margin: 20px 0px;
-  padding: 10px 6px;
-  text-align: center;
-  align-self: center;
-  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .17), 2px 4px 5px hsl(0deg 0% 0% / .17) ,4px 8px 10px hsl(0deg 0% 0% / .17);
-} */
-
-.red {
-  background-color: #AD5D4E;
-  color: #F6E8D5;
 }
 
-.red h1, .white h1{
+
+
+.service-card-container h1{
   font-family: "Archivo Black", sans-serif;
   font-size: 50px;
 }
 
 .service-card-columns ul{
-  padding-left:  60px;
+  padding: 0px 8rem;
 }
 
 .service-card-columns li{
   padding-bottom: 10px;
 }
 
-.white {
-  background-color: #FFF8EB;
-  color: #333;
+@media screen and (max-width: 1200px) {
+  .service-card-columns ul{
+    padding: 0 5rem;
+  }
 }
 
-.custom-columns{
-  padding: 30px;
-  text-align: center;
+@media screen and (max-width: 992px) {
+  .service-card-columns ul{
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-card-columns ul{
+    padding: 0 8rem;
+  }
+  .service-card-container{
+    grid-template-areas: 
+  'text1'
+  'text2'
+  'custom';
+
+  grid-template-columns: 1fr;
+
+  }
 }
