@@ -11,22 +11,23 @@ function Card() {
             <ul className="cards__items">
               <Carditem 
               src="images/sewingmachine.png"
-              text="Discover our modern alteration services and inexpensive pricing."
+              text="Discover our modern alteration services and inexpensive pricing"
               label="Services"
               path='/services'
+              className='leftcard'
               />
               <Carditem 
-              src="images/jorts.png"
-              text="Explore our completed and upcoming projects."
+              src="images/canva-shirt.png"
+              text="Find out more about re:tel and our mission"
               label="Projects"
-              path='/services'
+              path='/about'
               className='rightcard'
               />
             </ul>
           </div>
         </div>
       </div>
-      <div className="spacerCard"></div>
+      
     </>
     
   )

@@ -3,6 +3,7 @@ import HeroSection from "../HeroSection";
 import Card from '../Card';
 import React, { useEffect } from "react";
 import Smallcard from "../Smallcard";
+import CustomSection from "../CustomSection";
 
 function Home() {
 
@@ -14,6 +15,7 @@ function Home() {
     <>
       <HeroSection />
       <Smallcard />
+      <CustomSection />
       <Card />
     </>
   );

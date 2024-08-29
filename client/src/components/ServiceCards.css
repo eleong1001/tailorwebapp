@@ -1,32 +1,75 @@
 .service-card-container {
-  height: 70vh;
-  display: flex;
+  display: grid;
+  grid-template-areas: 
+  'text1 text2'
+  'custom custom';
+  grid-template-columns: 1fr 1fr;
 
 }
 
 .service-card-columns{
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  
-
+  padding: 20px 10px 20px 0px; 
+  background-color: #AD5D4E;
+  color: #F6E8D5;
 }
+
+.service-custom{
+  background-color: #AD5D4E;
+  color: #F6E8D5;
+  grid-area: custom;
+  text-align: center;
+  padding: 0px 20vw 70px;
+}
+
 
 .text-column {
-  padding-top: 30px;
+  padding-top: 10px;
+
+}
+.text-column li {
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.text-left {
-  text-align: end;
+
+
+.service-card-container h1{
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px;
 }
 
-
-.red {
-  background-color: #AD5D4E;
+.service-card-columns ul{
+  padding: 0px 8rem;
 }
 
+.service-card-columns li{
+  padding-bottom: 10px;
+}
 
-.white {
-  background-color: #fffcf7;
+@media screen and (max-width: 1200px) {
+  .service-card-columns ul{
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .service-card-columns ul{
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-card-columns ul{
+    padding: 0 8rem;
+  }
+  .service-card-container{
+    grid-template-areas: 
+  'text1'
+  'text2'
+  'custom';
+
+  grid-template-columns: 1fr;
+
+  }
 }

@@ -1,22 +1,21 @@
 
-/* .smallcard-heading{
+.smallcard-heading{
   color: #333;
   
-  background-color: #fff;
-  font-size: 40px;
-  font-weight: 600;
-  display: inline-block;
-  border-radius: 5px;
-  padding: 5px 10px;
+  background-color: #FFF8EB;
+  text-align: center;
+  font-size: large;
+}
 
-} */
+.smallcard-heading hr {
+  border: none;
+  border-top: 2px solid #383838; 
+}
 
-.spacer{
-  aspect-ratio: 960/200;
-  width: 100%;
-  background-image: url('../images/haikei-purple-white.svg'); 
-  background-position: top;
-  background-size: cover;
+.heading-text {
+  font-family: "fira code", monospace;
+  padding: 10px;
+  font-size: 50px;
 }
 
 
@@ -25,32 +24,103 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  height: 50vh;
   padding: 1rem;
   gap: 1rem;
-  background-color: #2A1E5C;
+  background-color: #FFF8EB;
+  padding-bottom: 100px;
 }
 
 .playingCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px 10px;
   width: 15rem;
-  height: 20rem;
-  background-color: #333;
-  border: 1px solid #333;
+  height: 15rem;
+  background-color: #F6E8D5;
+  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .17), 2px 4px 5px hsl(0deg 0% 0% / .17) ,4px 8px 10px hsl(0deg 0% 0% / .17);
+  /* border: 1px solid #333; */
   border-radius: 10px;
-  box-shadow: 4px 8px 8px hsl(0deg, 0% 0% / .38);
+  overflow: hidden;
+  /* box-shadow: 4px 8px 8px hsl(0deg, 0% 0% / .38);
   -webkit-filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017)); */
 }
 
-.playingCard:nth-child(2) {
+.second-img img{
+  transform: scale(.785);
+}
+
+.card-container:nth-child(2) {
   transition-delay: 200ms;
 }
 
-.playingCard:nth-child(3) {
+.card-container:nth-child(3) {
   transition-delay: 400ms;
 }
 
-.playingCard:nth-child(4) {
+.card-container:nth-child(4) {
   transition-delay: 600ms;
+}
+
+.third-img img{
+  transform: scale(.07);
+}
+
+.fourth-img img{
+  transform: scale(.28);
+}
+.card-label {
+  width: 15rem;
+  height: 2rem;
+  margin: 10px 10px;
+  background-color: #F6E8D5;
+  /* border: 1px solid #333; */
+  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .17), 2px 4px 5px hsl(0deg 0% 0% / .17) ,4px 8px 10px hsl(0deg 0% 0% / .17);
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .heading-text {
+    font-size: 40px;
+  }
+  .card-label{
+    font-size: 15px;
+    width: 14rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .heading-text {
+    font-size: 30px;
+  }
+  .card-label{
+    font-size: 14px;
+  }
+
+  .playingCard {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .heading-text {
+    font-size: 25px;
+  }
+
+  .card-label{
+    width: 13rem;
+  }
+
+  .playingCard {
+    width: 13rem;
+    height: 13rem;
+  }
+
 }

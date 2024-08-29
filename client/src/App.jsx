@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { useState } from 'react';
+import { ColorProvider } from './components/ColorContext.jsx';
 import Home from "./components/pages/Home.jsx";
 import Services from "./components/pages/Services.jsx";
 import Projects from "./components/pages/Projects.jsx";
@@ -12,8 +14,18 @@ import ObserverElement from './components/ObserverElement.jsx';
 
 
 function App() {
+
+  const [colorState, setColorState] = useState({
+    backgroundColor: '#FFF8EB',
+    currentPage: 'home'
+  });
+
+  const setColor = (color, page) => {
+    setColorState({ backgroundColor: color, currentPage: page });
+  };
+
   return (
-    <>
+    <ColorProvider value={{ colorState, setColor}}>
       <Router>
         <ObserverElement />
         <Navbar />
@@ -26,7 +38,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </>
+    </ColorProvider>
   );
 }
 
