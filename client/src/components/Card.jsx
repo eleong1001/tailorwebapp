@@ -18,7 +18,7 @@ function Card() {
               />
               <Carditem 
               src="images/canva-shirt.png"
-              text="Learn about re:tel and the creation of this website"
+              text="Find out more about re:tel and our mission"
               label="Projects"
               path='/about'
               className='rightcard'

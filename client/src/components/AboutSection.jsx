@@ -15,7 +15,7 @@ function AboutSection() {
         The other half, serves the purpose of a long-term computer science project. The website was created from scratch using a wide variety of youtube videos and programming framework documentation.
         <br />
         <br />
-        This website used Vite React to contruct the frontend aspects of the user interface. For behind the scenes objectives, the backend servers are run via Node JS and Express, which connect and send data to a MongoDB database.
+        This website used Vite & React to contruct the frontend aspects of the user interface. For behind the scenes objectives, the backend servers are run via Node JS and Express, which connect and send data to a MongoDB database.
         <br />
         <br />
         To contact me, view the icons in the footer to connect on Instagram, Gmail, or Linkedin.

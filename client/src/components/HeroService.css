@@ -3,6 +3,7 @@
   background-color: #FFF8EB;
   display: block;
   align-content: center;
+  padding: 0px 20px;
 }
 
 
@@ -14,4 +15,20 @@
   font-size: 100px;
   color: #333;
   
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .hero-service-text{
+    font-size: 90px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .hero-service-text{
+    font-size: 80px;
+  }
+
 }
