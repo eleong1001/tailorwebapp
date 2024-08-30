@@ -15,7 +15,7 @@ I hope to make this website publicaly accessible and allow users to submit reque
 # Design
 Home Page Hero Section:
 
-![HomePageImage](https://github.com/user-attachments/assets/b2002cf9-5e88-4cee-8c8f-50a4a8534f2a)
+![HomePageImage](https://github.com/user-attachments/assets/459a2377-c25c-4757-86c1-d55545cb4c5e)
 
 
 # Development Process
