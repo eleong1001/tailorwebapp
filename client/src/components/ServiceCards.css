@@ -14,11 +14,22 @@
 }
 
 .service-custom{
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto auto;
   background-color: #AD5D4E;
   color: #F6E8D5;
   grid-area: custom;
   text-align: center;
-  padding: 0px 20vw 70px;
+  padding: 50px 30px 70px;
+  
+}
+
+
+.service-custom-text{
+  display: flex;
+  justify-self: center;
+  width: 50%;
 }
 
 
@@ -69,7 +80,10 @@
   'text2'
   'custom';
 
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 
+  .service-custom-text{
+    width: 70%
   }
 }

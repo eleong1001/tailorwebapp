@@ -66,7 +66,9 @@ function ServiceCards() {
           <h1>
             Custom
           </h1>
-          If you have any unique ideas or specific requirements that need tailoring, please don’t hesitate to request our services! We're here to help bring your vision to life.
+          <div className="service-custom-text">
+            If you have any unique ideas or specific requirements that need tailoring, please don’t hesitate to request our services! We're here to help bring your vision to life.
+          </div>
         </div>
       </div>
     </>
