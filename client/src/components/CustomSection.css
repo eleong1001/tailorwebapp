@@ -14,8 +14,7 @@
   grid-area: header;
   font-family: "Archivo Black", sans-serif;
   font-size: 100px;
-  padding: 5vh 0 3vh 3vw; 
-  /* fix vh to vw!!! */
+  padding: 5vh 0 3vh 3vw;
 
 }
 

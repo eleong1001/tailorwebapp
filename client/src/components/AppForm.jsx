@@ -22,7 +22,7 @@ function Form() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:4000/api/signup', formData);
+      const response = await axios.post('http://localhost:5001/api/signup', formData);
       setFormData({
         fullName: '',
         email: '',
@@ -52,14 +52,16 @@ function Form() {
           <label htmlFor="fullName">Preferred Name</label>
           <input 
             type="text"
+            id="fullName"
             name="fullName"
             placeholder="Enter your preferred name" 
             onChange={handleChange}
-            value={formData.name}
+            value={formData.fullName}
           />
           <label htmlFor="email">Email</label>
           <input 
             type="text" 
+            id='email'
             name="email"
             placeholder="Enter your email" 
             onChange={handleChange}
@@ -68,6 +70,7 @@ function Form() {
           <label htmlFor="phoneNumber">Phone Number</label>
           <input 
             type="text" 
+            id='phoneNumber'
             name="phoneNumber"
             placeholder="Enter your phone number" 
             onChange={handleChange}
@@ -75,6 +78,7 @@ function Form() {
           />
           <label htmlFor="description">Description</label>
           <textarea
+          id='description'
           name="description"
           placeholder="Please enter a description of the service(s) that you are requesting" 
           onChange={handleChange}
