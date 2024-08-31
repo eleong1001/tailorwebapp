@@ -33,3 +33,6 @@ amplifyconfiguration*
 
 # env
 .env
+
+# ecosystem
+ecosystem.config.js
