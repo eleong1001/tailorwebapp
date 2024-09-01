@@ -1,5 +1,5 @@
 # 👷WebApp Work-in Progress👷
-  - Plan to complete the design and functionality by Winter 2024
+  - Plan to permanately host website by Winter 2024
 
 
 # Summary
@@ -12,6 +12,12 @@ I hope to make this website publicaly accessible and allow users to submit reque
   - Learn about API's
   - Gain creative and aesthetic design skills
 
+# Updates
+9/1/24
+  - Created an EC2 Ubuntu Instance with AWS Free Tier and utilized PM2 and Nginx to successfully and publically host this website.
+  - Instance stopped to finalize production to deployment code changes.
+  - Trying to find a cheaper alternative to AWS EC2 for when Free Tier runs out.
+
 # Design
 Home Page Hero Section:
 
@@ -23,6 +29,7 @@ Home Page Hero Section:
   - Currently learning how to host a website with the front end and backend on the same server
     - Hopefully so users can submit requests for alterations, which are then sent through the backend node.js to MongoDB
     - Will most likely use AWS EC2 to host so that I can better learn about popular Cloud Services
+  
 
 
 # Inspo:
