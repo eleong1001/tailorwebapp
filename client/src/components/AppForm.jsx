@@ -22,7 +22,8 @@ function Form() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5001/api/signup', formData);
+      const apiBaseUrl = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5001';
+      const response = await axios.post(`${apiBaseUrl}/api/signup`, formData);
       setFormData({
         fullName: '',
         email: '',
