@@ -21,7 +21,11 @@ async function connectToDatabase() {
 connectToDatabase();
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+  origin: true,
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
 
 app.use('/api', routeUrls)
 
