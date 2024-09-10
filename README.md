@@ -1,6 +1,6 @@
 # 👷WebApp Work-in Progress👷
   - Plan to permanately host website by Winter 2024
-
+  - Checkout "aws-deploy" branch to see code configuration for deployment on AWS EC2
 
 # Summary
 Hello y'all, this is a MERN stack website (MongoDB, Express, React, NodeJs) I am working on for my personal tailor and alterations business.
