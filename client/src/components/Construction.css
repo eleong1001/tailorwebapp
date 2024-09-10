@@ -1,0 +1,11 @@
+
+.construction-container{
+  display: grid;
+  color: #333;
+  background-color: #FFF8EB;
+  height: 85vh;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px;
+  
+}
