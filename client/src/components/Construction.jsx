@@ -4,13 +4,20 @@ import React from "react";
 
 function Construction() {
   return (
-    <div className="construction-container">
-      <div>
-      Request Form Under Construction to Improve Security and
-      Performance
-      </div>
-      <div>
-        Please use the Footer icons to contact us about services
+    <div className="construction-wrapper">
+      <div className="construction-container">
+        <div className="construction-bold">
+          <b>
+            Request Form Under Construction
+          </b>
+        </div>
+        
+
+        <br />
+    
+        <div className="construction-smalltext">
+          Please use the Footer icons to contact us about services
+        </div>
       </div>
     </div>
   );

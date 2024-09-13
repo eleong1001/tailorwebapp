@@ -72,7 +72,7 @@
 
 @media screen and (max-width: 768px) {
   .service-card-columns ul{
-    padding: 0 8rem;
+    padding: 0 3rem;
   }
   .service-card-container{
     grid-template-areas: 
@@ -84,6 +84,20 @@
   }
 
   .service-custom-text{
-    width: 70%
+    width: 90%
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .service-card-columns ul{
+    padding: 0px 2rem;
+  }
+
+  .service-custom-text{
+    width: 100%;
+  }
+  
+  .service-custom{
+    padding: 20px 30px 70px 50px;
   }
 }
