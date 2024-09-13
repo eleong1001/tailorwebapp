@@ -6,7 +6,7 @@ function AboutSection() {
   return (
     <div className='about-container'>
       <div className="about-header">
-        About
+        About Us
       </div>
       <div className="about-text">
         The re:tel website was created partially for an alterations business that primarly serves college students with quick and inexpensive services.

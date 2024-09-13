@@ -1,21 +1,22 @@
 
 .smallcard-heading{
   color: #333;
-  
+  display: grid;
+  width: 100%;
+  height: auto;
   background-color: #FFF8EB;
-  text-align: center;
+  justify-content: center;
   font-size: large;
-}
-
-.smallcard-heading hr {
-  border: none;
-  border-top: 2px solid #383838; 
 }
 
 .heading-text {
   font-family: "fira code", monospace;
-  padding: 10px;
+  display: flex;
+  padding: 12px 30px;
   font-size: 50px;
+  background-color: #F6E8D5;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / .17), 2px 4px 5px hsl(0deg 0% 0% / .17) ,4px 8px 10px hsl(0deg 0% 0% / .17);
 }
 
 

@@ -15,7 +15,7 @@
 
 .service-custom{
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   background-color: #AD5D4E;
   color: #F6E8D5;
@@ -98,6 +98,6 @@
   }
   
   .service-custom{
-    padding: 20px 30px 70px 50px;
+    padding: 20px 30px 70px;
   }
 }

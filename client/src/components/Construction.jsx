@@ -11,9 +11,6 @@ function Construction() {
             Request Form Under Construction
           </b>
         </div>
-        
-
-        <br />
     
         <div className="construction-smalltext">
           Please use the Footer icons to contact us about services
