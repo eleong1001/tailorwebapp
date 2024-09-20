@@ -3,7 +3,7 @@
   - Checkout "aws-deploy" branch to see code configuration for deployment on AWS EC2
 
 # Frontend Static Files Hosted on GitHub Pages
-  - [Check it out HERE!!](https://eleong1001.github.io/frontend-tailorapp/)
+  - [Check it out HERE!!](https://reteltailor.xyz)
 
 # Summary
 Hello y'all, this is a MERN stack website (MongoDB, Express, React, NodeJs) I am working on for my personal tailor and alterations business.
