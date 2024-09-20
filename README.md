@@ -2,6 +2,9 @@
   - Plan to permanately host website by Winter 2024
   - Checkout "aws-deploy" branch to see code configuration for deployment on AWS EC2
 
+# Frontend Static Files Hosted on GitHub Pages
+  - [Check it out HERE!!](https://eleong1001.github.io/frontend-tailorapp/)
+
 # Summary
 Hello y'all, this is a MERN stack website (MongoDB, Express, React, NodeJs) I am working on for my personal tailor and alterations business.
 I hope to make this website publicaly accessible and allow users to submit requests for personal sewing jobs.
