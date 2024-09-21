@@ -5,7 +5,7 @@
 
 # Summary
 Hello y'all, this is a MERN stack website (MongoDB, Express, React, NodeJs) I am working on for my personal tailor and alterations business.
-I hope to make this website publicaly accessible and allow users to submit requests for personal sewing jobs.
+I hope to make this website publicaly accessible and allow users to submit requests for personal sewing jobs. This site was previously hosted via AWS EC2. Due to cost barriers, the EC2 instance was stopped.
 
 The backend connection to MongoDB is functional when ran locally, and uses Node and Express Js to send JSON data to a personal MongoDB table configured with .env variables. Currently working on making post request possible for public users.
 
@@ -17,7 +17,7 @@ The backend connection to MongoDB is functional when ran locally, and uses Node 
 
 9/1/24
   - Created an EC2 Ubuntu Instance with AWS Free Tier and utilized PM2 and Nginx to successfully and publically host this website.
-  - Instance stopped to finalize production to deployment code changes.
+  - Instance stopped to finalize deployment code changes and create authentication for user-submitted requests.
   - Trying to find a cheaper alternative to AWS EC2 for when Free Tier runs out.
 
 # Updates
