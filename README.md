@@ -22,13 +22,17 @@ The backend connection to MongoDB is functional when ran locally, and uses Node 
   - Instance stopped to finalize production to deployment code changes.
   - Trying to find a cheaper alternative to AWS EC2 for when Free Tier runs out.
 
+# Updates
+9/1/24
+  - Created an EC2 Ubuntu Instance with AWS Free Tier and utilized PM2 and Nginx to successfully and publically host this website.
+  - Instance stopped to finalize production to deployment code changes.
+  - Trying to find a cheaper alternative to AWS EC2 for when Free Tier runs out.
+
 # Design
 Home Page Hero Section:
 
 ![HomePageImage](https://github.com/user-attachments/assets/459a2377-c25c-4757-86c1-d55545cb4c5e)
   
-
-
 # Inspo:
   - I used an assortment of youtube videos to help create a working and interactive site
   - Links: 

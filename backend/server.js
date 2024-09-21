@@ -10,7 +10,8 @@ dotenv.config()
 
 async function connectToDatabase() {
   try {
-    await mongoose.connect(process.env.DATABASE_ACCESS);
+    const database_password = process.env.REACT_APP_DATABASE_ACCESS;
+    await mongoose.connect(`mongodb+srv://userTwoDb:${database_password}@tailorwebapp.x5nz5.mongodb.net/?retryWrites=true&w=majority&appName=tailorwebapp`);
     console.log('Database connected successfully');
   } catch (err) {
     console.error('Database connection error:', err);
@@ -20,7 +21,11 @@ async function connectToDatabase() {
 connectToDatabase();
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+  origin: true,
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
 
 app.use('/api', routeUrls)
 

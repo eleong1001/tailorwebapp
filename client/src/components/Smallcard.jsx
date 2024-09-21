@@ -7,10 +7,8 @@ function Smallcard() {
   return (
     <>
       <div className='smallcard-heading'>
-        {/* <hr></hr> */}
         <div className='heading-text'>Our Services Include</div>
         
-        {/* <hr></hr> */}
       </div>
       <div className='logoCards'>
         <div className="card-container hidden">
