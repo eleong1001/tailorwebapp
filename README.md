@@ -3,19 +3,20 @@
   - Checkout "aws-deploy" branch to see code configuration for deployment on AWS EC2
 
 # Frontend Static Files Hosted on GitHub Pages
-  - [Check it out HERE!!](https://reteltailor.xyz)
+  - Custom Url: https://reteltailor.xyz
 
 # Summary
 Hello y'all, this is a MERN stack website (MongoDB, Express, React, NodeJs) I am working on for my personal tailor and alterations business.
 I hope to make this website publicaly accessible and allow users to submit requests for personal sewing jobs.
 
-### Goals: 
-  - To learn about how web applications work in front and backend code
-  - I am curious about how different frameworks are utilized in different parts of the development process vs production process
-  - Learn about API's
-  - Gain creative and aesthetic design skills
+The backend connection to MongoDB is functional when ran locally, and uses Node and Express Js to send JSON data to a personal MongoDB table configured with .env variables. Currently working on making post request possible for public users.
 
 # Updates
+9/20/24
+  - Static files are currently being hosted on GitHub Pages - https://reteltailor.xyz
+  - Currently building authentication features to enable backend to public users
+  - Planning to host final website on Vercel, AWS, or Heroku
+
 9/1/24
   - Created an EC2 Ubuntu Instance with AWS Free Tier and utilized PM2 and Nginx to successfully and publically host this website.
   - Instance stopped to finalize production to deployment code changes.
@@ -25,13 +26,6 @@ I hope to make this website publicaly accessible and allow users to submit reque
 Home Page Hero Section:
 
 ![HomePageImage](https://github.com/user-attachments/assets/459a2377-c25c-4757-86c1-d55545cb4c5e)
-
-
-# Development Process
-  - Using Vite to develop the frontend aspects of the website
-  - Currently learning how to host a website with the front end and backend on the same server
-    - Hopefully so users can submit requests for alterations, which are then sent through the backend node.js to MongoDB
-    - Will most likely use AWS EC2 to host so that I can better learn about popular Cloud Services
   
 
 
